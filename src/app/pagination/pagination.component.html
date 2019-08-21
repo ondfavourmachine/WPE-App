@@ -1,0 +1,71 @@
+<div class="container">
+    <!-- <div class="row">
+        <ul class="list-group list-group-flush">
+            <div *ngFor="let data of allData; index as i">
+                    <li class="list-group-item"> <span class="lead"> Venue: </span> {{ individualEvent?.venue_name }}</li>
+                    <li class="list-group-item"><span class="lead"> Title: </span> {{ individualEvent?.title }} </li>
+                    <li class="list-group-item"><span class="lead"> Address </span> {{ (!individualEvent?.venue_address)? "No address" : individualEvent?.venue_address }}</li>
+                    <li class="list-group-item"><span class="lead"> Venue url:  </span> {{ individualEvent?.venue_url }}</li>
+                    <li class="list-group-item"><span class="lead"> Country Name  </span> {{ individualEvent.country_name }}</li>
+            </div>
+          </ul>
+          <div>
+             <button (click)="prevPage()">Prev</button>
+              <button (click)="nextPage()">Next</button>
+          </div>
+    </div> -->
+
+    <div class="row pt-3">
+        <div class="col-md-11 m-auto">
+                <table class="table table-striped table-dark">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col" >Home team Name</th>
+                            <th scope="col" >Home team city</th>
+                            <th scope="col" > Home team Score </th>
+                            <th scope="col" >Visitor team name</th>
+                            <th scope="col" >Visitor team city</th>
+                            <th scope="col" >Visitor team score</th>
+                            <th scope="col" >Season</th>
+                            <th scope="col" > Status </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr *ngFor="let data of allData; index as i">
+                            <th scope="row">{{i + 1 }} </th>
+                            <td > {{data.home_team?.full_name}} </td>
+                            <td> {{ data.home_team?.city}} </td>
+                            <td> {{data.home_team_score}}</td>
+                            <td> {{data.visitor_team?.full_name}} </td>
+                            <td> {{data.visitor_team?.city}} </td>
+                            <td> {{ data.visitor_team_score}}</td>
+                            <td> {{ data.season }} </td>
+                            <td> {{data.status }}</td>
+                          </tr>
+                          <!-- <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                          </tr> -->
+                </table>
+        </div>
+
+        <div class="col-12">
+            <div class="text-center">
+                <button (click)="prevPage()" style="cursor: pointer" class="mr-3"> <span style="font-size: 16px;"><<</span> Previous Page</button>
+
+                <button (click)="nextPage()" style="cursor: pointer"> Next Page <span style="font-size: 16px;">>></span></button>
+            </div>
+        </div>
+       
+    </div>
+
+</div>

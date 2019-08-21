@@ -1,0 +1,554 @@
+[
+    {
+        "LocalObservationDateTime": "2019-08-21T13:57:00+02:00",
+        "EpochTime": 1566388620,
+        "WeatherText": "Thunderstorm",
+        "WeatherIcon": 16,
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "IsDayTime": true,
+        "Temperature": {
+            "Metric": {
+                "Value": 17.9,
+                "Unit": "C",
+                "UnitType": 17
+            },
+            "Imperial": {
+                "Value": 64.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "MobileLink": "http://m.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us"
+    },
+    {
+        "LocalObservationDateTime": "2019-08-21T12:57:00+02:00",
+        "EpochTime": 1566385020,
+        "WeatherText": "Clouds and sun",
+        "WeatherIcon": 4,
+        "HasPrecipitation": false,
+        "PrecipitationType": null,
+        "IsDayTime": true,
+        "Temperature": {
+            "Metric": {
+                "Value": 17.4,
+                "Unit": "C",
+                "UnitType": 17
+            },
+            "Imperial": {
+                "Value": 63.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "MobileLink": "http://m.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us"
+    },
+    {
+        "LocalObservationDateTime": "2019-08-21T11:56:00+02:00",
+        "EpochTime": 1566381360,
+        "WeatherText": "Clouds and sun",
+        "WeatherIcon": 4,
+        "HasPrecipitation": false,
+        "PrecipitationType": null,
+        "IsDayTime": true,
+        "Temperature": {
+            "Metric": {
+                "Value": 16.9,
+                "Unit": "C",
+                "UnitType": 17
+            },
+            "Imperial": {
+                "Value": 62.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "MobileLink": "http://m.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us"
+    },
+    {
+        "LocalObservationDateTime": "2019-08-21T10:57:00+02:00",
+        "EpochTime": 1566377820,
+        "WeatherText": "Clouds and sun",
+        "WeatherIcon": 4,
+        "HasPrecipitation": false,
+        "PrecipitationType": null,
+        "IsDayTime": true,
+        "Temperature": {
+            "Metric": {
+                "Value": 16.5,
+                "Unit": "C",
+                "UnitType": 17
+            },
+            "Imperial": {
+                "Value": 62.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "MobileLink": "http://m.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us"
+    },
+    {
+        "LocalObservationDateTime": "2019-08-21T09:57:00+02:00",
+        "EpochTime": 1566374220,
+        "WeatherText": "Clouds and sun",
+        "WeatherIcon": 4,
+        "HasPrecipitation": false,
+        "PrecipitationType": null,
+        "IsDayTime": true,
+        "Temperature": {
+            "Metric": {
+                "Value": 16.0,
+                "Unit": "C",
+                "UnitType": 17
+            },
+            "Imperial": {
+                "Value": 61.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "MobileLink": "http://m.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us"
+    },
+    {
+        "LocalObservationDateTime": "2019-08-21T08:57:00+02:00",
+        "EpochTime": 1566370620,
+        "WeatherText": "Clouds and sun",
+        "WeatherIcon": 4,
+        "HasPrecipitation": false,
+        "PrecipitationType": null,
+        "IsDayTime": true,
+        "Temperature": {
+            "Metric": {
+                "Value": 15.5,
+                "Unit": "C",
+                "UnitType": 17
+            },
+            "Imperial": {
+                "Value": 60.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "MobileLink": "http://m.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us"
+    },
+    {
+        "LocalObservationDateTime": "2019-08-21T08:02:00+02:00",
+        "EpochTime": 1566367320,
+        "WeatherText": "Thunderstorm",
+        "WeatherIcon": 16,
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "IsDayTime": true,
+        "Temperature": {
+            "Metric": {
+                "Value": 15.5,
+                "Unit": "C",
+                "UnitType": 17
+            },
+            "Imperial": {
+                "Value": 60.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "MobileLink": "http://m.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us"
+    },
+    {
+        "LocalObservationDateTime": "2019-08-21T06:57:00+02:00",
+        "EpochTime": 1566363420,
+        "WeatherText": "Cloudy",
+        "WeatherIcon": 7,
+        "HasPrecipitation": false,
+        "PrecipitationType": null,
+        "IsDayTime": true,
+        "Temperature": {
+            "Metric": {
+                "Value": 14.2,
+                "Unit": "C",
+                "UnitType": 17
+            },
+            "Imperial": {
+                "Value": 57.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "MobileLink": "http://m.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us"
+    },
+    {
+        "LocalObservationDateTime": "2019-08-21T05:57:00+02:00",
+        "EpochTime": 1566359820,
+        "WeatherText": "Cloudy",
+        "WeatherIcon": 7,
+        "HasPrecipitation": false,
+        "PrecipitationType": null,
+        "IsDayTime": true,
+        "Temperature": {
+            "Metric": {
+                "Value": 13.4,
+                "Unit": "C",
+                "UnitType": 17
+            },
+            "Imperial": {
+                "Value": 56.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "MobileLink": "http://m.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us"
+    },
+    {
+        "LocalObservationDateTime": "2019-08-21T04:57:00+02:00",
+        "EpochTime": 1566356220,
+        "WeatherText": "Cloudy",
+        "WeatherIcon": 7,
+        "HasPrecipitation": false,
+        "PrecipitationType": null,
+        "IsDayTime": false,
+        "Temperature": {
+            "Metric": {
+                "Value": 13.1,
+                "Unit": "C",
+                "UnitType": 17
+            },
+            "Imperial": {
+                "Value": 56.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "MobileLink": "http://m.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us"
+    },
+    {
+        "LocalObservationDateTime": "2019-08-21T03:57:00+02:00",
+        "EpochTime": 1566352620,
+        "WeatherText": "Cloudy",
+        "WeatherIcon": 7,
+        "HasPrecipitation": false,
+        "PrecipitationType": null,
+        "IsDayTime": false,
+        "Temperature": {
+            "Metric": {
+                "Value": 12.7,
+                "Unit": "C",
+                "UnitType": 17
+            },
+            "Imperial": {
+                "Value": 55.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "MobileLink": "http://m.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us"
+    },
+    {
+        "LocalObservationDateTime": "2019-08-21T02:57:00+02:00",
+        "EpochTime": 1566349020,
+        "WeatherText": "Cloudy",
+        "WeatherIcon": 7,
+        "HasPrecipitation": false,
+        "PrecipitationType": null,
+        "IsDayTime": false,
+        "Temperature": {
+            "Metric": {
+                "Value": 13.1,
+                "Unit": "C",
+                "UnitType": 17
+            },
+            "Imperial": {
+                "Value": 56.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "MobileLink": "http://m.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us"
+    },
+    {
+        "LocalObservationDateTime": "2019-08-21T01:57:00+02:00",
+        "EpochTime": 1566345420,
+        "WeatherText": "Cloudy",
+        "WeatherIcon": 7,
+        "HasPrecipitation": false,
+        "PrecipitationType": null,
+        "IsDayTime": false,
+        "Temperature": {
+            "Metric": {
+                "Value": 14.0,
+                "Unit": "C",
+                "UnitType": 17
+            },
+            "Imperial": {
+                "Value": 57.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "MobileLink": "http://m.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us"
+    },
+    {
+        "LocalObservationDateTime": "2019-08-21T00:57:00+02:00",
+        "EpochTime": 1566341820,
+        "WeatherText": "Cloudy",
+        "WeatherIcon": 7,
+        "HasPrecipitation": false,
+        "PrecipitationType": null,
+        "IsDayTime": false,
+        "Temperature": {
+            "Metric": {
+                "Value": 14.4,
+                "Unit": "C",
+                "UnitType": 17
+            },
+            "Imperial": {
+                "Value": 58.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "MobileLink": "http://m.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us"
+    },
+    {
+        "LocalObservationDateTime": "2019-08-20T23:57:00+02:00",
+        "EpochTime": 1566338220,
+        "WeatherText": "Mostly cloudy",
+        "WeatherIcon": 38,
+        "HasPrecipitation": false,
+        "PrecipitationType": null,
+        "IsDayTime": false,
+        "Temperature": {
+            "Metric": {
+                "Value": 14.7,
+                "Unit": "C",
+                "UnitType": 17
+            },
+            "Imperial": {
+                "Value": 58.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "MobileLink": "http://m.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us"
+    },
+    {
+        "LocalObservationDateTime": "2019-08-20T22:57:00+02:00",
+        "EpochTime": 1566334620,
+        "WeatherText": "Mostly cloudy",
+        "WeatherIcon": 38,
+        "HasPrecipitation": false,
+        "PrecipitationType": null,
+        "IsDayTime": false,
+        "Temperature": {
+            "Metric": {
+                "Value": 15.0,
+                "Unit": "C",
+                "UnitType": 17
+            },
+            "Imperial": {
+                "Value": 59.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "MobileLink": "http://m.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us"
+    },
+    {
+        "LocalObservationDateTime": "2019-08-20T21:57:00+02:00",
+        "EpochTime": 1566331020,
+        "WeatherText": "Some clouds",
+        "WeatherIcon": 36,
+        "HasPrecipitation": false,
+        "PrecipitationType": null,
+        "IsDayTime": false,
+        "Temperature": {
+            "Metric": {
+                "Value": 15.4,
+                "Unit": "C",
+                "UnitType": 17
+            },
+            "Imperial": {
+                "Value": 60.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "MobileLink": "http://m.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us"
+    },
+    {
+        "LocalObservationDateTime": "2019-08-20T20:57:00+02:00",
+        "EpochTime": 1566327420,
+        "WeatherText": "Some clouds",
+        "WeatherIcon": 36,
+        "HasPrecipitation": false,
+        "PrecipitationType": null,
+        "IsDayTime": false,
+        "Temperature": {
+            "Metric": {
+                "Value": 15.8,
+                "Unit": "C",
+                "UnitType": 17
+            },
+            "Imperial": {
+                "Value": 60.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "MobileLink": "http://m.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us"
+    },
+    {
+        "LocalObservationDateTime": "2019-08-20T19:57:00+02:00",
+        "EpochTime": 1566323820,
+        "WeatherText": "Thunderstorm",
+        "WeatherIcon": 42,
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "IsDayTime": false,
+        "Temperature": {
+            "Metric": {
+                "Value": 16.4,
+                "Unit": "C",
+                "UnitType": 17
+            },
+            "Imperial": {
+                "Value": 61.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "MobileLink": "http://m.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us"
+    },
+    {
+        "LocalObservationDateTime": "2019-08-20T18:57:00+02:00",
+        "EpochTime": 1566320220,
+        "WeatherText": "Some clouds",
+        "WeatherIcon": 36,
+        "HasPrecipitation": false,
+        "PrecipitationType": null,
+        "IsDayTime": false,
+        "Temperature": {
+            "Metric": {
+                "Value": 16.7,
+                "Unit": "C",
+                "UnitType": 17
+            },
+            "Imperial": {
+                "Value": 62.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "MobileLink": "http://m.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us"
+    },
+    {
+        "LocalObservationDateTime": "2019-08-20T17:57:00+02:00",
+        "EpochTime": 1566316620,
+        "WeatherText": "Clouds and sun",
+        "WeatherIcon": 4,
+        "HasPrecipitation": false,
+        "PrecipitationType": null,
+        "IsDayTime": true,
+        "Temperature": {
+            "Metric": {
+                "Value": 17.4,
+                "Unit": "C",
+                "UnitType": 17
+            },
+            "Imperial": {
+                "Value": 63.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "MobileLink": "http://m.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us"
+    },
+    {
+        "LocalObservationDateTime": "2019-08-20T17:01:00+02:00",
+        "EpochTime": 1566313260,
+        "WeatherText": "Clouds and sun",
+        "WeatherIcon": 4,
+        "HasPrecipitation": false,
+        "PrecipitationType": null,
+        "IsDayTime": true,
+        "Temperature": {
+            "Metric": {
+                "Value": 17.4,
+                "Unit": "C",
+                "UnitType": 17
+            },
+            "Imperial": {
+                "Value": 63.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "MobileLink": "http://m.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us"
+    },
+    {
+        "LocalObservationDateTime": "2019-08-20T15:57:00+02:00",
+        "EpochTime": 1566309420,
+        "WeatherText": "Clouds and sun",
+        "WeatherIcon": 4,
+        "HasPrecipitation": false,
+        "PrecipitationType": null,
+        "IsDayTime": true,
+        "Temperature": {
+            "Metric": {
+                "Value": 19.9,
+                "Unit": "C",
+                "UnitType": 17
+            },
+            "Imperial": {
+                "Value": 68.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "MobileLink": "http://m.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us"
+    },
+    {
+        "LocalObservationDateTime": "2019-08-20T14:56:00+02:00",
+        "EpochTime": 1566305760,
+        "WeatherText": "Clouds and sun",
+        "WeatherIcon": 4,
+        "HasPrecipitation": false,
+        "PrecipitationType": null,
+        "IsDayTime": true,
+        "Temperature": {
+            "Metric": {
+                "Value": 18.6,
+                "Unit": "C",
+                "UnitType": 17
+            },
+            "Imperial": {
+                "Value": 66.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "MobileLink": "http://m.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us",
+        "Link": "http://www.accuweather.com/en/cd/bi/918392/current-weather/918392?lang=en-us"
+    }
+]

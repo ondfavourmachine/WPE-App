@@ -1,0 +1,98 @@
+
+<div class="flex-container flex-center margin-top-5" >
+    <div id="calendar-container" class="flex-container flex-column flex-center">
+      <div class="flex-container flex-center-vert width-20 margin-top-20 margin-bottom-20" style="width: 300px;">
+        <div class="ti-arrow-circle-left flex-center-horz margin-left-20" (click)="previousMonth()" style="font-size: 24px; cursor:pointer"> <<  </div>
+       <div class="margin-right-20" style="font-size: 24px; min-width: 220px; text-align: center"> {{ date.format('MMMM') }} {{ date.format('YYYY') }} </div>
+        <div class="ti-arrow-circle-right flex-center-horz" (click)="nextMonth()"  style="font-size: 24px;  cursor:pointer"> >> </div>
+      </div>
+        <div class="flex-container">
+            <div class="calendar-days flex-container flex-center" style="font-weight: 700; font-size: 20px;">Sun</div>
+            <div class="calendar-days flex-container flex-center" style="font-weight: 700; font-size: 20px;">Mon</div>
+            <div class="calendar-days flex-container flex-center" style="font-weight: 700; font-size: 20px;">Tues</div>
+            <div class="calendar-days flex-container flex-center" style="font-weight: 700; font-size: 20px;">Wed</div>
+            <div class="calendar-days flex-container flex-center" style="font-weight: 700; font-size: 20px;">Thur</div>
+            <div class="calendar-days flex-container flex-center" style="font-weight: 700; font-size: 20px;">Fri</div>
+            <div class="calendar-days flex-container flex-center" style="font-weight: 700; font-size: 20px;">Sat</div>
+    
+          </div>
+          <div class="flex-container flex-wrap" style=" margin-left: 33px; margin-right: auto; width: 1045px">
+            <div #calendarDays *ngFor="let day of daysArr">
+              <div id="calendar" class="calendar-days flex-container" [ngClass]="{'inactivity': !day, 'today':checkForToday(day) }" style="position: relative;font-size: 20px;">
+  
+               <!-- <div>
+                 {{gm.trimAString(timetable?.course, 2)}}, {{timetable?.time}}
+               </div> -->
+  
+                  <div [attr.data-value]="day?.date()" class="inner-box" title="click to view more"
+                    data-toggle="modal" data-target="#exampleModalCenter">
+                      {{day?.date()}}
+                      <div class="inner-box-contents" >
+                        <ng-container *ngFor="let event of evtData let i = index;">
+                           <ng-container  *ngIf="event.day == day?.date() && event.month == (day?.month()) + 1"> 
+                              
+                           
+                                <a (click)="viewIndividualAddress(event)" draggable="true">
+                                    <div id="events" class="selector">
+                                        {{eventservice.trimAString(event.title, 3)}},
+                                        
+                                      </div>
+                                       <div id="eventtime" >
+                                          {{modifyTime(event.start_time)}}
+                                      </div>
+
+                                      <div id="eventtime" >
+                                        {{ (!event.venue_address)? "No address" : event.venue_address }}
+                                    </div>
+                               
+                                    </a>
+                                
+                                
+                         
+                        </ng-container>
+                          
+                    </ng-container>
+                      </div>
+                  </div>
+                   
+          
+               
+              </div>
+  
+            </div>
+          </div>
+    </div>
+  
+    <button hidden id="modalTrigger" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+        Launch demo modal
+      </button>
+
+   <!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">{{individualEvent?.title}}</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"> <span class="lead"> Venue: </span> {{ individualEvent?.venue_name }}</li>
+                <li class="list-group-item"><span class="lead"> Title: </span> {{ individualEvent?.title }} </li>
+                <li class="list-group-item"><span class="lead"> Address </span> {{ (!individualEvent?.venue_address)? "No address" : individualEvent?.venue_address }}</li>
+                <li class="list-group-item"><span class="lead"> Venue url:  </span> {{ individualEvent?.venue_url }}</li>
+                <li class="list-group-item"><span class="lead"> Country Name  </span> {{ individualEvent.country_name }}</li>
+              </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  </div>
